@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="node_modules/chart.js/Chart.min.js"></script>
+    <script src="node_modules/angular-chart.js/dist/angular-chart.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+              <a routerLink="" class="brand-logo right">Home</a>
+                <a routerLink="/pessoas"> Pessoas </a>
+                <a routerLink="/equipes"> Equipes </a>
+                <a routerLink="/projetos"> Projetos </a>
+                <a routerLink="/task"> Task's </a>
+            </div>
+          </nav>
+    </header>
+    <div class="textoprincipal">
+        <h1 class="font-weight-bold">Bem-Vindo a segunda fase
+            <span class="cor_amarela">do desfio!</span></h1>
+        <p>Sistema que mantém projetos. Cada projeto recebe uma equipe, e cada equipe pode receber um número não delimitado de pessoas. Cada projeto tem tasks, cada task pode ser atribuída a uma determinada pessoa que está na equipe do projeto.</p>    
+    </div>
+    <div class="graficoum">
+        <div>
+            <h1>Total de Pessoas add</h1>
+        </div>
+        <!--<div class="pessoas">
+            <div class="pie animate no-round" style="--p:80"> 50%</div>
+            <p>total de pessoas add</p>
+        </div>-->
+        <div class="pessoas">
+            <div class="pie animate no-round" style="--p:80;--c:orange;"> 80%</div>
+        </div>
+        <!--<div class="pessoas">
+            <div class="pie animate" style="--p:90;--c:lightgreen"> 90%</div>
+      </div>-->
+    </div>
+
+</body>
+</html>
+
